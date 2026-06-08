@@ -3,10 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script type="module" crossorigin src="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-    <script type="module" crossorigin src="/goit-advancedjs-hw-02/assets/1-timer-l0sNRNKZ.js"></script>
+    <title>Завдання 1. Таймер зворотного відліку</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-02/1-timer.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-BbSUbo7J.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-02/assets/vendor-C1gPI-5C.css">
   </head>
   <body>
+    <div class="go-back-wrap">
+      <a class="go-back-link" href="index.html">Go back</a>
+    </div>
+    <div class="timer-wrapper">
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
